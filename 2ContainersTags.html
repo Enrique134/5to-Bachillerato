@@ -1,0 +1,198 @@
+<div></div>
+<!-- A div tag is a tag that defines logical divisions within the content of a web page. You can use div tags to center blocks of content, create column effects, and create different colored areas, among other possibilities. -->
+
+<div>
+  <!DOCTYPE html>
+  <html>
+    <head>
+      <title>Example of using the div tag</title>
+      <style>
+        .container {
+          width: 80%;
+          margin: 0 auto;
+          text-align: center;
+        }
+        .header {
+          background-color: lightgray;
+          padding: 20px;
+        }
+        .main-content {
+          background-color: white;
+          padding: 40px;
+        }
+        .footer {
+          background-color: lightgray;
+          padding: 20px;
+          text-align: center;
+        }
+      </style>
+    </head>
+    <body>
+  
+      <div class="container">
+  
+        <div class="header">
+          <h1>Welcome to my website</h1>
+        </div>
+  
+        <div class="main-content">
+          <p>This is the main content of my website.</p>
+          <img src="image.jpg" alt="Example Image">
+          <p>Here you can find more information about my services and products.</p>
+        </div>
+  
+        <div class="footer">
+          <p>Copyright &copy; 2021 - All rights reserved</p>
+        </div>
+  
+      </div>
+  
+    </body>
+  </html>
+</div>
+
+<main></main>
+<!-- The HTML element <main> represents the main content of the <body> of a document or application. 
+  The main content area consists of content that is directly related to or expands upon the central topic of a document or the core functionality of an application. -->
+
+<header></header>
+<!-- The HTML Header element (<header>) represents a group of introductory or navigational aids. 
+  It can contain some header elements as well as a logo, 
+  a search form, an author name, and other components. -->
+
+<footer></footer>
+<!-- Footer in Spanish translates to "pie de página" and refers to the bottom part of a page. 
+  In HTML, this section is translated by the <footer> tag, 
+  which contains all the elements that should be there. -->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My website</title>
+  </head>
+  <body>
+    <header>
+      <h1>Header of my website</h1>
+    </header>
+    <nav>
+      <!-- Navigation menu here -->
+    </nav>
+    <section>
+      <!-- Main content of the website here -->
+    </section>
+    <footer>
+      <p>Copyright © 2023. My website.</p>
+      <p>Contact us at info@mywebsite.com</p>
+    </footer>
+  </body>
+</html>
+
+<section></section>
+<!-- The HTML <section> element represents a generic independent section of a document, 
+  which doesn't have a more specific semantic element to represent it. 
+  Sections should always have a title, with very few exceptions. -->
+
+<body>
+    <header>
+      <h1>My website</h1>
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+  
+      <section id="home" class="highlighted">
+        <h2>Welcome to my website</h2>
+        <p>Here you will find information about our company and the services we offer.</p>
+      </section>
+  
+      <section id="about" class="normal">
+        <h2>About Us</h2>
+        <p>We are a company dedicated to offering innovative and efficient technological solutions for small and medium-sized businesses.</p>
+        <p>We have a highly trained team committed to the satisfaction of our customers.</p>
+      </section>
+  
+      <section id="services" class="highlighted">
+        <h2>Services</h2>
+        <ul>
+          <li>Custom software development</li>
+          <li>Implementation of information technologies</li>
+          <li>Consulting and technological advice</li>
+          <li>Maintenance and technical support</li>
+        </ul>
+      </section>
+  
+      <section id="contact" class="normal">
+        <h2>Contact</h2>
+        <form action="send_message.php" method="post">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required>
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" required></textarea>
+          <input type="submit" value="Send">
+        </form>
+      </section>
+  
+    </main>
+    <footer>
+      <p>All rights reserved © 2023</p>
+    </footer>
+  </body>
+
+<article></article>
+<!-- The <article> tag in HTML5 is used to define standalone and important content on a web page. 
+  For example, a blog post, a review, a forum post, etc. -->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Example of using the article tag in HTML5</title>
+  </head>
+  <body>
+    <header>
+      <h1>Welcome to my blog</h1>
+    </header>
+    <nav>
+      <ul>
+        <li><a href="#intro">Introduction</a></li>
+        <li><a href="#main-content">Main Content</a></li>
+        <li><a href="#conclusion">Conclusion</a></li>
+      </ul>
+    </nav>
+    <main>
+
+      <article id="intro">
+        <header>
+          <h2>Introduction to the article</h2>
+        </header>
+        <p>This is a sample article demonstrating how to use the article tag in HTML5.</p>
+      </article>
+
+      <article id="main-content">
+        <header>
+          <h2>Main Content</h2>
+        </header>
+        <p>This is where the main content of the article is included.</p>
+        <p>It can include text, images, videos, tables, etc.</p>
+      </article>
+
+      <article id="conclusion">
+        <header>
+          <h2>Conclusion</h2>
+        </header>
+        <p>In conclusion, the article tag is a useful tool for improving the structure and accessibility of a website.</p>
+      </article>
+
+    </main>
+    <footer>
+      <p>&copy; 2023 By My Blog</p>
+    </footer>
+  </body>
+</html>
